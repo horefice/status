@@ -11,17 +11,17 @@ $(document).ready(function() {
 	//URL and name
 	var urls = [{
 		name: 'Website',
-		url: 'https://horefice.com'},
+		url: 'https://horefice.github.io'},
 	{
 		name: 'Resume',
-		url: 'https://horefice.com/docs/HOreficeResume.pdf'},
+		url: 'https://horefice.github.io/docs/HOreficeResume.pdf'},
 	{
 		name: 'Blog',
-		url: 'https://blog.horefice.com'},
+		url: 'https://horefice.github.io/blog'},
 	{
 		name: 'RPI',
-		url: 'https://rpi.horefice.com'
-	}];
+		url: 'https://horefice.github.io/rpi'}
+	];
 	$(urls).each(function(index,item){
 		$('#status .current-status').append('<li class="'+'current-status-'+item.name+'">'+item.name+'</li>')
 	});
